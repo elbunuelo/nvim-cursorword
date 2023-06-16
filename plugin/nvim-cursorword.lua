@@ -103,5 +103,6 @@ api.nvim_create_user_command("CursorWordToggle", function()
     del_autocmds()
   else
     set_autocmds()
+    matchadd()
   end
 end, {})
